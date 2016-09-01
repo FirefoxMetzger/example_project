@@ -1,8 +1,8 @@
 ### What goes in here?
 
-This is the place for platform specific implementations.
+This is the place for platform specific implementations. The intention for these is to be included by `<MySourceFile>.cpp` or to be used as platform specific implementations of classes or functions defined in the header. 
 
-These will usually be included within a define macro. Name format is:
+The name format is:
 
     <MySourceFile>.<platform>.cpp
 
