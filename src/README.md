@@ -1,0 +1,1 @@
+The src directory contains all source files. Simple isn't it?
