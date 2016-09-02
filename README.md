@@ -17,8 +17,8 @@ You may write into the README file whatever you like, but *must* include the for
 ## Table of Content
 This section *must* be included in the project. It allows easy navigation inside the readme (either with Ctrl + F or ancors).
 
-1. Directory Organisation
-2. Dependencies
+1. Dependencies
+2. Directory Organisation
 3. Installation
 4. Contribution
 5. Tests
