@@ -1,7 +1,7 @@
 # Example Project
 This section *must* be included in the project. It is a short description of what this project does.
 
-This is a small example to scetch out we organize libraries and executable code. While this library contains all implementations and definitions necessary, it is not intended that you use or build this code in an isolated environment. Instead, add this as a submodule to the parent project and write a small `FindExampleProject.cmake` to add appropriate dependencies where needed.
+This is a small example to scetch out how we organize libraries and executable code. While this library contains all implementations and definitions necessary, it is not intended that you use or build this code in an isolated environment. Instead, add this as a submodule to the parent project and write a small `FindExampleProject.cmake` to add appropriate dependencies where needed.
 
 It is important to note that this project defines _exactly_ the following two CMake targets:
 
@@ -12,6 +12,8 @@ It is important to note that this project defines _exactly_ the following two CM
 
 This repository structure was inspired by [this talk from the BoostCon](https://www.youtube.com/watch?v=3eH4hMKl7XE). While not copying all of the displayed procedures, the idea of one 'all-repo' works really well.
 
+You may write into the README file whatever you like, but *must* include the format scetched out in this document. Every section declaring that it *may* be included is specific to this example. Other sections and subsections may be added at your leisure.
+
 ## Table of Content
 This section *must* be included in the project. It allows easy navigation inside the readme (either with Ctrl + F or ancors).
 
@@ -21,8 +23,7 @@ This section *must* be included in the project. It allows easy navigation inside
 4. Contribution
 5. Tests
 6. FindPackage Example
-7. How To Modify Files
-8. Top Level File Content
+7. Top Level File Content
 
 ## Dependencies
 This section *must* be included in the project. It links to projects / repos this project needs to build successfully.
@@ -96,5 +97,11 @@ This section *may* be included in the project. It describes how an `Find<Package
 		REQUIRED_VARS ExampleProject_DEFINED
 	)
 
-## How To Modify Files
 ## Top Level File Content
+This section *may* be included in the project. 
+
+    .gitignore-------You know what it is. Just keep in mind that IDE specific excludes 
+                     belong into your global .gitignore .
+    CMakeLists.txt---This file will integrate the project into your existing source
+    LICENSE----------The license under which this project is distributed
+    README.md--------This readme file
